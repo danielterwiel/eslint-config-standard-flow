@@ -3,8 +3,8 @@
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
 
-[travis-image]: https://img.shields.io/travis/gozala/eslint-config-standard-flow/master.svg
-[travis-url]: https://travis-ci.org/gozala/eslint-config-standard-flow
+[travis-image]: https://img.shields.io/travis/Gozala/eslint-config-standard-flow/master.svg
+[travis-url]: https://travis-ci.org/Gozala/eslint-config-standard-flow
 [npm-image]: https://img.shields.io/npm/v/eslint-config-standard-flow.svg
 [npm-url]: https://npmjs.org/package/eslint-config-standard-flow
 [downloads-image]: https://img.shields.io/npm/dm/eslint-config-standard-flow.svg
@@ -12,9 +12,9 @@
 
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for Flow support in [JavaScript Standard Style](https://github.com/feross/standard)
 
-This module is for advanced users. You probably want to use [`standard-flow`](https://github.com/gozala/standard-flow) instead :)
+This module is for advanced users. You probably want to use [`standard-flow`](https://github.com/Gozala/standard-flow) instead :)
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com)
 
 ## Install
 
@@ -52,22 +52,22 @@ You can override settings from the shareable config by adding them directly into
 
 ### Looking for something easier than this?
 
-The easiest way to use JavaScript Standard Style with Flow is to use the [`standard-flow`](https://github.com/gozala/standard-flow) package. This comes with a global Node command line program (`standard`) that you can run or add to your `npm test` script to quickly check your style.
+The easiest way to use JavaScript Standard Style with Flow is to use the [`standard-flow`](https://github.com/Gozala/standard-flow) package. This comes with a global Node command line program (`standard`) that you can run or add to your `npm test` script to quickly check your style.
 
 ## Badge
 
 Use this in one of your projects? Include one of these badges in your readme to let people know that your code is using the standard style.
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com)
 
 ```markdown
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com)
 ```
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
 
 ```markdown
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 ```
 
 ## Learn more

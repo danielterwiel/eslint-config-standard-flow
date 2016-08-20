@@ -1,14 +1,14 @@
 {
   "name": "eslint-config-standard-flow",
   "description": "JavaScript Standard Style Flow support - ESLint Shareable Config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "email": "rfobic@gmail.com",
     "name": "Irakli Gozalishvili",
     "url": "http://jeditoolkit.com"
   },
   "bugs": {
-    "url": "https://github.com/gozala/eslint-config-standard-flow/issues"
+    "url": "https://github.com/Gozala/eslint-config-standard-flow/issues"
   },
   "dependencies": {
     "babel-eslint": "6.1.2",
@@ -22,7 +22,7 @@
     "eslint": "3.3.1",
     "tape": "4.6.0"
   },
-  "homepage": "https://github.com/feross/eslint-config-standard-flow",
+  "homepage": "https://github.com/Gozala/eslint-config-standard-flow",
   "keywords": [
     "JavaScript Standard Style",
     "check",
@@ -54,7 +54,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/gozala/eslint-config-standard-flow.git"
+    "url": "git://github.com/Gozala/eslint-config-standard-flow.git"
   },
   "scripts": {
     "test": "tape test/*.js"
