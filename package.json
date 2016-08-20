@@ -1,24 +1,28 @@
 {
-  "name": "eslint-config-standard-react",
-  "description": "JavaScript Standard Style React/JSX support - ESLint Shareable Config",
-  "version": "3.0.0",
+  "name": "eslint-config-standard-flow",
+  "description": "JavaScript Standard Style Flow support - ESLint Shareable Config",
+  "version": "1.0.0",
   "author": {
-    "name": "Feross Aboukhadijeh",
-    "email": "feross@feross.org",
-    "url": "http://feross.org/"
+    "email": "rfobic@gmail.com",
+    "name": "Irakli Gozalishvili",
+    "url": "http://jeditoolkit.com"
   },
   "bugs": {
-    "url": "https://github.com/feross/eslint-config-standard-react/issues"
+    "url": "https://github.com/gozala/eslint-config-standard-flow/issues"
   },
   "dependencies": {
-    "eslint-config-standard-jsx": "^2.0.0"
+    "babel-eslint": "6.1.2",
+    "eslint-config-standard": "5.3.5",
+    "eslint-plugin-flowtype": "2.7.1",
+    "eslint-plugin-import": "1.13.0",
+    "eslint-plugin-promise": "2.0.1",
+    "eslint-plugin-standard": "2.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.0.1",
-    "eslint-plugin-react": ">=2.7.1",
-    "tape": "^4.0.0"
+    "eslint": "3.3.1",
+    "tape": "4.6.0"
   },
-  "homepage": "https://github.com/feross/eslint-config-standard-react",
+  "homepage": "https://github.com/feross/eslint-config-standard-flow",
   "keywords": [
     "JavaScript Standard Style",
     "check",
@@ -34,11 +38,10 @@
     "hint",
     "jscs",
     "jshint",
-    "jsx",
     "lint",
     "policy",
     "quality",
-    "react",
+    "flow",
     "simple",
     "standard",
     "standard style",
@@ -49,13 +52,9 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "peerDependencies": {
-    "eslint": ">=2.0.0",
-    "eslint-plugin-react": ">=2.7.1"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/eslint-config-standard-react.git"
+    "url": "git://github.com/gozala/eslint-config-standard-flow.git"
   },
   "scripts": {
     "test": "tape test/*.js"

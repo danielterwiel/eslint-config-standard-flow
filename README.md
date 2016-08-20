@@ -1,25 +1,25 @@
-# Standard React - ESLint Shareable Config
+# Standard Flow - ESLint Shareable Config
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
 
-[travis-image]: https://img.shields.io/travis/feross/eslint-config-standard-react/master.svg
-[travis-url]: https://travis-ci.org/feross/eslint-config-standard-react
-[npm-image]: https://img.shields.io/npm/v/eslint-config-standard-react.svg
-[npm-url]: https://npmjs.org/package/eslint-config-standard-react
-[downloads-image]: https://img.shields.io/npm/dm/eslint-config-standard-react.svg
-[downloads-url]: https://npmjs.org/package/eslint-config-standard-react
+[travis-image]: https://img.shields.io/travis/gozala/eslint-config-standard-flow/master.svg
+[travis-url]: https://travis-ci.org/gozala/eslint-config-standard-flow
+[npm-image]: https://img.shields.io/npm/v/eslint-config-standard-flow.svg
+[npm-url]: https://npmjs.org/package/eslint-config-standard-flow
+[downloads-image]: https://img.shields.io/npm/dm/eslint-config-standard-flow.svg
+[downloads-url]: https://npmjs.org/package/eslint-config-standard-flow
 
-#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for React/JSX support in [JavaScript Standard Style](https://github.com/feross/standard)
+#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for Flow support in [JavaScript Standard Style](https://github.com/feross/standard)
 
-This module is for advanced users. You probably want to use [`standard`](https://github.com/feross/standard) instead :)
+This module is for advanced users. You probably want to use [`standard-flow`](https://github.com/gozala/standard-flow) instead :)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 ## Install
 
 ```bash
-npm install eslint-config-standard-react
+npm install eslint-config-standard-flow
 ```
 
 ## Usage
@@ -29,20 +29,19 @@ You can learn more about
 [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) on the
 official ESLint website.
 
-This Shareable Config adds React and JSX to the baseline JavaScript Standard Style rules
-provided in `eslint-config-standard`.
+This Shareable Config adds Flow to the baseline JavaScript Standard Style rules provided in `eslint-config-standard`.
 
 Here's how to install everything you need:
 
 ```bash
-npm install eslint-config-standard eslint-config-standard-react eslint-config-standard-jsx eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
+npm install eslint-config-standard eslint-config-standard-flow
 ```
 
 Then, add this to your .eslintrc file:
 
 ```
 {
-  "extends": ["standard", "standard-react"]
+  "extends": ["standard", "standard-flow"]
 }
 ```
 
@@ -53,15 +52,11 @@ You can override settings from the shareable config by adding them directly into
 
 ### Looking for something easier than this?
 
-The easiest way to use JavaScript Standard Style to check your code is to use the
-[`standard`](https://github.com/feross/standard) package. This comes with a global
-Node command line program (`standard`) that you can run or add to your `npm test` script
-to quickly check your style.
+The easiest way to use JavaScript Standard Style with Flow is to use the [`standard-flow`](https://github.com/gozala/standard-flow) package. This comes with a global Node command line program (`standard`) that you can run or add to your `npm test` script to quickly check your style.
 
 ## Badge
 
-Use this in one of your projects? Include one of these badges in your readme to
-let people know that your code is using the standard style.
+Use this in one of your projects? Include one of these badges in your readme to let people know that your code is using the standard style.
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
@@ -79,7 +74,3 @@ let people know that your code is using the standard style.
 
 For the full listing of rules, editor plugins, FAQs, and more, visit the main
 [JavaScript Standard Style repo](https://github.com/feross/standard).
-
-## License
-
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
